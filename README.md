@@ -39,7 +39,7 @@ Here’s a step-by-step breakdown of what we do in this project:
 
 We start by creating a SQL table with appropriate data types:
 
-```sql
+````sql`
 CREATE TABLE zepto (
   sku_id SERIAL PRIMARY KEY,
   category VARCHAR(120),
@@ -51,8 +51,8 @@ CREATE TABLE zepto (
   weightInGms INTEGER,
   outOfStock BOOLEAN,
   quantity INTEGER
-);
-## 2. Data Import
+); ``` `
+### 2. Data Import
 
 Loaded CSV using pgAdmin's import feature.
 
