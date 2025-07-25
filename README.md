@@ -52,7 +52,7 @@ CREATE TABLE zepto (
   outOfStock BOOLEAN,
   quantity INTEGER
 );
-### 2. Data Import
+## 2. Data Import
 
 Loaded CSV using pgAdmin's import feature.
 
