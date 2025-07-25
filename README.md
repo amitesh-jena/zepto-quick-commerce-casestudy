@@ -50,7 +50,7 @@ CREATE TABLE zepto (
   discountedSellingPrice NUMERIC(8,2),
   weightInGms INTEGER,
   outOfStock BOOLEAN,
-  quantity INTEGER); ```sql
+  quantity INTEGER);
 
 ## 2. Data Import
 
